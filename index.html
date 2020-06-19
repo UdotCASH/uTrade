@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js" type="text/javascript">
+  </script>
+    <script src="index.js"></script>
+  </head>
+
+  <h1>uTrade</h1>
+
+  <h3>Balances</h3>
+
+  <body>
+    <label id="EthBalance">ETH: </label><br>
+    <label id="UCASHBalance">UCASH: </label><br>
+    <label id="ApprovedUCASHBalance">Approved UCASH: </label><br><br>
+
+    <input id="ApproveInput" placeholder = "amount..."></input><button onclick="approve()">Approve</button><br><br>
+
+
+<h3>Sell UCASH</h3>
+<label>Price: 0.000001 ETH</label> <br>
+<label id="maxUCASH">Max: </label><br><br>
+<input placeholder ="amount UCASH"></input><br>
+<button onclick="trade()">Trade</button>
+  </body>
+</html>
